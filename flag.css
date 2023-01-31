@@ -37,7 +37,7 @@ body{
 }
 .white img{
     width: 30%;
-    animation: rotate 5s infinite linear;
+    animation: rotate 4s infinite linear;
 }
 @keyframes rotate{
     0%{
