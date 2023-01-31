@@ -4,17 +4,17 @@
     box-sizing: border-box;
 }
 body{
-    background: #888;
+    background: skyblue;
     overflow: hidden;
 }
 .parent{
-    margin-left: 280px;
+    /* margin-left: 280px; */
     height: 100vh;
     width: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: rotate(-40deg)scale(2.5);
+    transform: rotate(0deg)scale(2.5);
 }
 .orange,
 .white,
@@ -24,7 +24,7 @@ body{
     transition: all 2s;
 }
 .orange{
-    background: #f9933f;
+    background: orange;
 }
 .white{
     background: white;
@@ -33,11 +33,11 @@ body{
     justify-content: center;
 }
 .green{
-    background: #138808;
+    background: green;
 }
 .white img{
-    width: 10%;
-    animation: rotate 3s infinite linear;
+    width: 30%;
+    animation: rotate 5s infinite linear;
 }
 @keyframes rotate{
     0%{
