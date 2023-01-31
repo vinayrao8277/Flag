@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: rotate(0deg)scale(2.5);
+    transform: rotate(-30deg)scale(2.5);
 }
 .orange,
 .white,
@@ -24,6 +24,7 @@ body{
     transition: all 2s;
 }
 .orange{
+    /* margin-top: 200px; */
     background: orange;
 }
 .white{
